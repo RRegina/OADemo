@@ -1,0 +1,28 @@
+
+#title{height:4em;line-height: 4em; text-align: center;border-bottom: 1px #ddd solid;}
+
+*{padding:0;margin:0;border:none;}
+ul,li{list-style: none;}
+a{ text-decoration: none;color:black;}
+body{font-size:62.5%;font-family: "΢���ź�",sans-serif;background-color: #F1F0F5}
+/* header */
+#header{height:4em;line-height: 4em; background-color:#333333;color:#F1F0F5;text-align: center;border-bottom: 1px #ddd solid;}
+#header>h1{font-weight:normal;font-size:1.8em;}
+
+#header_me{overflow:hidden;position:fixed;left:0;
+    top: 0;border-bottom: 1px #ddd solid;width: 100%}
+#header_me img{  height: 4em;width: 4em; }
+#header_me a{display: block;  width: 100%;}
+
+#footer{height:4em;width:100%;line-height: 4em;position: fixed;bottom: 0;left:0;background-color:#ccc;}
+#footer ul li{float: left;border-right:1px #ddd solid;width:33.15%;text-align: center;}
+#footer ul li:last-child{border-right: none;}
+#footer ul li.hover{background-color:#fff;}
+/*.home{background:url(../image/icon_tab1.png) no-repeat left center; line-height: 4em;}*/
+#footer ul li.hover a{color:gray;}
+#footer ul li a{display:block;width:100%;}
+#topbtn{float: left;top: 0;left: 0;height:4em;width:100%;border-bottom:1px #ddd solid;line-height: 4em;position: relative;}
+#topbtn li{float: left;width: 20%;text-align: center}
+
+
+#divul ul li.hover a{color: blue}
