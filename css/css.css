@@ -55,13 +55,13 @@
 .content_topimg{overflow: hidden;width: 100%;left:0;
     top: 0;}
 
-.yhq{background: url(../image/yhq.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
-.xx{background: url(../image/xiaoxi.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
-.dd{background: url(../image/dingdan.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
-.gsjs{background: url(../image/gsxx.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
-.gscp{background: url(../image/gscp.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
-.gsry{background: url(../image/gsry.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
-.sz{background: url(../image/sz.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
+.yhq{background: url(../images/yhq.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.xx{background: url(../images/xiaoxi.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
+.dd{background: url(../images/dingdan.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gsjs{background: url(../images/gsxx.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gscp{background: url(../images/gscp.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gsry{background: url(../images/gsry.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.sz{background: url(../images/sz.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
 .spsp{padding-left: 20px;}
 .topp{margin-top: 3em;}
 .topp img{height: 2em;}
@@ -192,3 +192,14 @@
     border-radius: 4px;
     margin: 5px;
 color: whitesmoke}
+
+#topbtn1{float: left;top: 0;left: 0;height:5em;width:100%;line-height: 3em;position: relative;}
+#topbtn1 li{    float: left;
+    width: 47%;
+    text-align: center;
+    line-height: 5em;
+    background: white;
+    margin: 5px 1.5%;
+    border-radius: 5px;}
+/*#topbtn1 li a.hover{background:url(../images/zxbg.png) no-repeat center bottom;}*/
+#topbtn1 a{display:block;width:100%;color: #333333}
