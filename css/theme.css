@@ -1,0 +1,57 @@
+
+.content_youhui>ul>li>p{text-align: center;color: #999999}
+.content_youhui li{margin-top: 8px;margin: 5px;
+    overflow: hidden;}
+.content_youhui div{background:#ffffff;border-radius:5px; padding:  0.5em;overflow: hidden;  margin-top: 5px }
+.youhui_p1{color: #333333;line-height: 25px;}
+.youhui_p2{color: #666666;line-height: 19px;padding: 2px 0}
+.youhui_p3{color: #ffffff;padding: 5px 10px;margin: 5px 5px 0;float: right;border-radius: 4px;}
+
+/*人员管理*/
+.people form>input[type="search"]{float:left;height:30px;width: 90%;color:#d1d1d1;font-size:5px;}
+.people form>input[type="submit"]{float:left;background: url(../image/search.png)no-repeat center center  ;background-size:10px;width:6%  ;  height: 30px;border: none;cursor: pointer;}
+.people form{margin: 5px 10px;background-color: #ffffff;overflow: hidden;border-radius: 4px;}
+.table_l {width: 100%;overflow: hidden;text-align: center;color: #333333}
+.table_l td{
+    border-bottom: 1px #dddddd solid;
+    height: 30px;
+    background: #FDFDFD;
+}
+.table_l th{
+    border-bottom: 1px #dddddd solid;
+    height: 30px;
+    background: #FDFDFD;
+}
+.gh{
+    width: 25%;
+}
+.name{
+    width: 25%;
+}
+.tel{
+    width: 50%;
+}
+/*添加联系人*/
+.addli{margin-top:5px;overflow:hidden;line-height:3em;}
+.addli ul{border-top:1px #ddd solid;background-color:#ffffff;border-bottom:1px #ddd solid;padding:0 3%;margin-top:5px;}
+.addli li{
+    overflow: hidden;padding:0 5px;border-bottom:1px #ddd solid;}
+.addli li:last-child{border-bottom:none;}
+.addli span{float:left;width:30%;color:#666666;}
+.addli form{width:70%;float:left}
+.addli form input[type="text"]{height:2em;width: 100%;    text-align: right;font-size: 5px;
+    color: #cccccc;}
+.addli form input[type="file"]{width: 100%;    text-align: right;}
+.addli button{padding:4px 10px;background:#8fc86a;border-radius:4px;color:white;position: relative;top: 6px;float: right}
+
+/*产品详情*/
+.top_content{background: #ffffff;margin-top:5px;}
+.top_content img{width: 96%;padding: 5px 2%;}
+.top_content p{    padding: 0 10px 5px;font-weight: bold;}
+.content_detail{background: #ffffff;margin-top: 5px;    padding: 5px 10px;    overflow: hidden;}
+.content_detail p{line-height: 20px;}
+
+.shop_sj{overflow:hidden;}
+.shop_sj form input[type="number"]{    margin: 5px 2%;width:94%;    padding: 0 5px;border-radius:4px;line-height:2.5em;height: 2.5em;color: #cccccc}
+.shop_sj form input[type="button"]{  background-color: #8FC86A;height: 3em;line-height: 3em;border: 0.7px solid transparent;border-radius: 4px;margin: 10px 2%; width: 96%;color: #ffffff;}
+.sjxq{width: 94%;margin:5px 2%; padding: 0 5px;background: #ffffff;border-radius: 4px;line-height: 20px;height: 9em;}
