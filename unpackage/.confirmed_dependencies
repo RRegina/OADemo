@@ -82,7 +82,8 @@
       "css/css.css",
       "images/icon_tab.png",
       "images/touxiang.png",
-      "pages/message.html"
+      "pages/message.html",
+      "pages/property.html"
     ],
     "refer": []
   },
@@ -163,7 +164,12 @@
       "css/theme.css",
       "pages/serviceCar.html",
       "pages/serviceEatting.html",
-      "pages/service/serviceMeeting.html"
+      "pages/service/serviceMeeting.html",
+      "pages/message.html",
+      "pages/service/serviceReception.html",
+      "pages/service/serviceLiving.html",
+      "pages/service/serviceCar.html",
+      "pages/mine.html"
     ],
     "refer": []
   },
@@ -234,6 +240,30 @@
     ]
   },
   "pages/service/serviceMeeting.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
+  },
+  "pages/service/serviceReception.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
+  },
+  "pages/service/serviceCar.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
+  },
+  "pages/service/serviceLiving.html": {
     "resources": [
       "pages/service.html"
     ],
