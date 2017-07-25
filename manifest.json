@@ -313,7 +313,8 @@
 					"css/css.css",
 					"images/icon_tab.png",
 					"images/touxiang.png",
-					"pages/message.html"
+					"pages/message.html",
+					"pages/property.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -395,7 +396,12 @@
 					"css/theme.css",
 					"pages/serviceCar.html",
 					"pages/serviceEatting.html",
-					"pages/service/serviceMeeting.html"
+					"pages/service/serviceMeeting.html",
+					"pages/message.html",
+					"pages/service/serviceReception.html",
+					"pages/service/serviceLiving.html",
+					"pages/service/serviceCar.html",
+					"pages/mine.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -463,6 +469,27 @@
 				"priority": 0
 			},
 			"pages/service/serviceMeeting.html": {
+				"resources": [
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/service/serviceReception.html": {
+				"resources": [
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/service/serviceCar.html": {
+				"resources": [
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/service/serviceLiving.html": {
 				"resources": [
 					"pages/service.html"
 				],
