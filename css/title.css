@@ -38,6 +38,6 @@ body{font-size:62.5%;font-family: "΢���ź�",sans-serif;background-color
 
 /*消息头部按纽*/
 #topbtn{background-color:#ffffff;float: left;top: 0;left: 0;height:3em;width:100%;border-bottom:1px #ddd solid;line-height: 3em;position: relative;}
-#topbtn li{float: left;width: 33.3%;text-align: center}
-#topbtn li a.hover{background:url(../image/zxbg.png) no-repeat center bottom;}
+#topbtn li{float: left;width: 50%;text-align: center}
+#topbtn li a.hover{background:url(../images/zxbg.png) no-repeat center bottom;}
 #topbtn a{display:block;width:100%;color: #333333}
