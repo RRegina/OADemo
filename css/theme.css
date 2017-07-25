@@ -9,7 +9,7 @@
 
 /*人员管理*/
 .people form>input[type="search"]{float:left;height:30px;width: 90%;color:#d1d1d1;font-size:5px;}
-.people form>input[type="submit"]{float:left;background: url(../image/search.png)no-repeat center center  ;background-size:10px;width:6%  ;  height: 30px;border: none;cursor: pointer;}
+.people form>input[type="submit"]{float:left;background: url(../images/search.png)no-repeat center center  ;background-size:10px;width:6%  ;  height: 30px;border: none;cursor: pointer;}
 .people form{margin: 5px 10px;background-color: #ffffff;overflow: hidden;border-radius: 4px;}
 .table_l {width: 100%;overflow: hidden;text-align: center;color: #333333}
 .table_l td{
