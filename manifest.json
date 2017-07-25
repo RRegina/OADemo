@@ -332,7 +332,11 @@
 					"images/wuye.jpg",
 					"pages/propertyRepair.html",
 					"pages/propertyFee.html",
-					"pages/message.html"
+					"pages/message.html",
+					"pages/service.html",
+					"pages/property/propertyFee.html",
+					"pages/property/propertyRepair.html",
+					"pages/property/propertyApply.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -369,6 +373,98 @@
 					"images/icon_tab.png",
 					"pages/property.html",
 					"pages/mine.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/service.html": {
+				"resources": [
+					"images/zhusu.png",
+					"images/car.png",
+					"images/dring.png",
+					"images/meeting.png",
+					"images/jiedai.png",
+					"images/jiedai.jpg",
+					"pages/property.html",
+					"css/title.css",
+					"images/icon_tab.png",
+					"pages/serviceReception.html",
+					"css/css.css",
+					"pages/serviceMeeting.html",
+					"images/zxbg.png",
+					"css/theme.css",
+					"pages/serviceCar.html",
+					"pages/serviceEatting.html",
+					"pages/service/serviceMeeting.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/serviceReception.html": {
+				"resources": [
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/serviceMeeting.html": {
+				"resources": [
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/serviceCar.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/style.css",
+					"images/back_btn.png",
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/serviceEatting.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/style.css",
+					"images/back_btn.png",
+					"pages/service.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/propertyFee.html": {
+				"resources": [
+					"pages/property.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/property/propertyFee.html": {
+				"resources": [
+					"pages/property.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/property/propertyRepair.html": {
+				"resources": [
+					"pages/property.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/property/propertyApply.html": {
+				"resources": [
+					"pages/property.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/service/serviceMeeting.html": {
+				"resources": [
+					"pages/service.html"
 				],
 				"refer": [],
 				"priority": 0

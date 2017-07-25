@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>物业费缴纳</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		<style>
+			.mui-input-group {
+				margin-top: 10px;
+			}
+			
+			.mui-input-group:first-child {
+				margin-top: 20px;
+			}
+			
+			.mui-input-group label {
+				width: 22%;
+			}
+			
+			.mui-input-row label~input,
+			.mui-input-row label~select,
+			.mui-input-row label~textarea {
+				width: 78%;
+			}
+			
+			.mui-content-padded {
+				margin-top: 25px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div style="width: 100%;height: 4em; background: #0062CC;">
+			<img style="width: 2em;height: 2em;margin-top: 1em;margin-left: 0.8em;float: left;" src="../../images/back_btn.png" onclick="goBack()" />
+			<label style="width: 80%;color: white;font-size: 20px;text-align: center;margin-top: 1em;float: left;">物业保修单</label>
+		</div>
+
+		<div class="mui-content">
+			<form id='login-form' class="mui-input-group">
+				<div class="mui-input-row">
+					<label style="width: 40%;">申请人</label>
+					<input style="width: 60%;" id='account' type="text" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">申请人所在部门</label>
+					<input style="width: 60%;" id='text' type="text" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">联系方式</label>
+					<input style="width: 60%;" id='password' type="text" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">申请时间</label>
+					<input style="width: 60%;" id='password' type="date" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">物业费用(元)</label>
+					<input style="width: 60%;" id='password' type="text" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">费用有效期至</label>
+					<input style="width: 60%;" id='password' type="date" class="mui-input-clear mui-input" placeholder="必填">
+				</div>
+			</form>
+		</div>
+
+		<!--<div style="width: 100%;height: 2em;text-align: left;margin-top: 1.5em;font-size: 19px;background-color: #999999;">
+			意见：
+		</div>-->
+
+		<div class="mui-content">
+			<form id='' class="mui-input-group">
+				<div class="mui-input-row">
+					<label style="width: 40%;">报修部门领导意见</label>
+					<label style="width: 60%;">同意</label>
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">后服中心意见</label>
+					<label style="width: 60%;">同意</label>
+				</div>
+				<div class="mui-input-row">
+					<label style="width: 40%;">站领导意见</label>
+					<label style="width: 60%;">同意</label>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript">
+			function goBack() {
+				window.history.back(-1);
+			}
+		</script>
+	</body>
+
+</html>

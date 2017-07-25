@@ -100,7 +100,11 @@
       "images/wuye.jpg",
       "pages/propertyRepair.html",
       "pages/propertyFee.html",
-      "pages/message.html"
+      "pages/message.html",
+      "pages/service.html",
+      "pages/property/propertyFee.html",
+      "pages/property/propertyRepair.html",
+      "pages/property/propertyApply.html"
     ],
     "refer": [
       "pages/propertyApply.html"
@@ -140,5 +144,101 @@
       "pages/mine.html"
     ],
     "refer": []
+  },
+  "pages/service.html": {
+    "resources": [
+      "images/zhusu.png",
+      "images/car.png",
+      "images/dring.png",
+      "images/meeting.png",
+      "images/jiedai.png",
+      "images/jiedai.jpg",
+      "pages/property.html",
+      "css/title.css",
+      "images/icon_tab.png",
+      "pages/serviceReception.html",
+      "css/css.css",
+      "pages/serviceMeeting.html",
+      "images/zxbg.png",
+      "css/theme.css",
+      "pages/serviceCar.html",
+      "pages/serviceEatting.html",
+      "pages/service/serviceMeeting.html"
+    ],
+    "refer": []
+  },
+  "pages/serviceReception.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
+  },
+  "pages/serviceMeeting.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
+  },
+  "pages/serviceCar.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "images/back_btn.png",
+      "pages/service.html"
+    ],
+    "refer": []
+  },
+  "pages/serviceEatting.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/style.css",
+      "images/back_btn.png",
+      "pages/service.html"
+    ],
+    "refer": []
+  },
+  "pages/propertyFee.html": {
+    "resources": [
+      "pages/property.html"
+    ],
+    "refer": [
+      "pages/property.html"
+    ]
+  },
+  "pages/property/propertyFee.html": {
+    "resources": [
+      "pages/property.html"
+    ],
+    "refer": [
+      "pages/property.html"
+    ]
+  },
+  "pages/property/propertyRepair.html": {
+    "resources": [
+      "pages/property.html"
+    ],
+    "refer": [
+      "pages/property.html"
+    ]
+  },
+  "pages/property/propertyApply.html": {
+    "resources": [
+      "pages/property.html"
+    ],
+    "refer": [
+      "pages/property.html"
+    ]
+  },
+  "pages/service/serviceMeeting.html": {
+    "resources": [
+      "pages/service.html"
+    ],
+    "refer": [
+      "pages/service.html"
+    ]
   }
 }
