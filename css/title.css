@@ -1,28 +1,43 @@
-
-#title{height:4em;line-height: 4em; text-align: center;border-bottom: 1px #ddd solid;}
-
+﻿
+#title{height:4em;line-height: 4em; background-color:#333333;color:#efefef;text-align: center;border-bottom: 1px #ddd solid;}
+#title a{color: #efefef;}
 *{padding:0;margin:0;border:none;}
 ul,li{list-style: none;}
 a{ text-decoration: none;color:black;}
-body{font-size:62.5%;font-family: "΢���ź�",sans-serif;background-color: #F1F0F5}
+body{font-size:62.5%;font-family: "΢���ź�",sans-serif;background-color: #F1F0F5;margin-bottom: 50px;}
 /* header */
 #header{height:4em;line-height: 4em; background-color:#333333;color:#F1F0F5;text-align: center;border-bottom: 1px #ddd solid;}
 #header>h1{font-weight:normal;font-size:1.8em;}
 
-#header_me{overflow:hidden;position:fixed;left:0;
+#header_me{overflow:hidden;left:0;
     top: 0;border-bottom: 1px #ddd solid;width: 100%}
 #header_me img{  height: 4em;width: 4em; }
 #header_me a{display: block;  width: 100%;}
 
 #footer{height:4em;width:100%;line-height: 4em;position: fixed;bottom: 0;left:0;background-color:#ccc;}
-#footer ul li{float: left;border-right:1px #ddd solid;width:33.15%;text-align: center;}
+#footer ul li{float: left;border-right:1px #ddd solid;width:33%;text-align: center;}
 #footer ul li:last-child{border-right: none;}
-#footer ul li.hover{background-color:#fff;}
-/*.home{background:url(../image/icon_tab1.png) no-repeat left center; line-height: 4em;}*/
-#footer ul li.hover a{color:gray;}
+#footer ul li{background-color: #ffffff}
+/*#footer ul li.hover{background-color:#fff;}*/
+/*#footer ul li.hover a i{display: inline-block; background: url(../images/icon_m.png) no-repeat center center;width:20px;height:20px;background-size:100% 100%;position:relative;top:5px;right:8px;}*/
+/*#footer ul li.nhov1 a{background: url(../images/icon_home.png) no-repeat center center;background-size: 12px}*/
+/*#footer ul li.nhov2 a{background: url(../images/icon_shop.png) no-repeat center center;background-size: 12px}*/
+
+#footer ul li a i{background:url(../images/icon_tab.png) no-repeat;display: inline-block;width:24px;height:22px;margin-right:6px;position:relative;}
+#footer ul li.curren a{color: #a9a9a9}
+#footer ul li a{color: #282737;}
+#footer ul li.curren a i.icon1{background-position:0 0;}
+#footer ul li.curren a i.icon2{background-position:0 -64px;}
+#footer ul li.curren a i.icon3{background-position:0 -34px;}
 #footer ul li a{display:block;width:100%;}
-#topbtn{float: left;top: 0;left: 0;height:4em;width:100%;border-bottom:1px #ddd solid;line-height: 4em;position: relative;}
-#topbtn li{float: left;width: 20%;text-align: center}
+#footer ul li a i.icon1{top: 5px;background-position:-29px 0;}
+#footer ul li a i.icon2{background-position:-29px -64px;top:6px;}
+#footer ul li a i.icon3{background-position:-29px -34px;top:6px;}
 
 
-#divul ul li.hover a{color: blue}
+
+/*消息头部按纽*/
+#topbtn{background-color:#ffffff;float: left;top: 0;left: 0;height:3em;width:100%;border-bottom:1px #ddd solid;line-height: 3em;position: relative;}
+#topbtn li{float: left;width: 33.3%;text-align: center}
+#topbtn li a.hover{background:url(../image/zxbg.png) no-repeat center bottom;}
+#topbtn a{display:block;width:100%;color: #333333}

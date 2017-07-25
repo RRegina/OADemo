@@ -30,37 +30,50 @@
 .img_ul{
     width: 3em;
 }
-.h5_bottom{margin-top:1em}
+.h5_bottom{margin:0.6em;color: #333}
 #exit{width: 96%;margin:3% auto;overflow:hidden;}
-#exit input{width:100%;background-color: lightblue;height: 3em;line-height: 3em;border: 0.7px solid transparent;border-radius: 4px}
+#exit input{width:100%;background-color:#8FC86A;color:#ffffff;height: 3em;line-height: 3em;border: 0.7px solid transparent;border-radius: 4px}
 
 #exit div{height: 3em;line-height: 3em;border: 1px #cccccc solid}
 #exit a p{font-size: 1.5em;text-align: center}
 
 
 .content_topm ul{
-    margin-top:2px;display:block;margin-bottom:1em;padding:0 1em;border-top:1px #ddd solid;border-bottom:1px #ddd solid;line-height: 3em}
-.sp{float: right}
+    margin-top:2px;display:block;margin-bottom:1em;padding:0 1em;border-top:1px #ddd solid;border-bottom:1px #ddd solid;line-height: 3em;background-color: #ffffff}
+.sp{float: right;padding-right: 1em;background-size: 2px}
 .content_topm ul li{border-bottom: 1px #ddd solid;padding:0 0.5em;}
 .content_topm ul li:last-child{border-bottom:none;}
-.content_topm ul li a{display: block;  width: 100%;}
-.content_topimg{overflow: hidden;width: 100%;position:fixed;left:0;    margin-top: 4em;
+.content_topm ul li a{display: block;  padding: 0 0.5em;}
+.szy{float: right;color: #666666}
+
+.content_topm1 ul{
+    margin-top:2px;display:block;margin-bottom:1em;padding:0 1em;border-top:1px #ddd solid;border-bottom:1px #ddd solid;line-height: 3em;background-color: #ffffff}
+.sp{float: right;padding-right: 1em;background-size: 2px}
+.content_topm1 ul li{border-bottom: 1px #ddd solid;padding:0 0.5em;}
+.content_topm1 ul li:last-child{border-bottom:none;}
+.content_topm1 ul li a{display: block;}
+.content_topimg{overflow: hidden;width: 100%;left:0;
     top: 0;}
+
+.yhq{background: url(../image/yhq.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.xx{background: url(../image/xiaoxi.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
+.dd{background: url(../image/dingdan.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gsjs{background: url(../image/gsxx.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gscp{background: url(../image/gscp.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.gsry{background: url(../image/gsry.png) no-repeat left center;  background-size: 15px;  padding-left: 10px;}
+.sz{background: url(../image/sz.png) no-repeat left center;  background-size: 15px;  padding-left:10px;}
+.spsp{padding-left: 20px;}
 .topp{margin-top: 3em;}
-.topp img{height: 4.5em;width: 4.5em;}
+.topp img{height: 2em;}
 
 #chacontent{
-    width: 96%;
-    margin: 3% auto;
+    width: 100%;
+    margin-top: 2em;
     overflow: hidden;
+    border-top: 1px #ddd solid;
 }
-#chacontent input{    margin-bottom: 5%;}
-#chacontent input[type="password"]{    height: 3em;
-    line-height: 3em;
-    width: 97%;
-    border: 0.7px #ccc solid;
-    border-radius: 5px;
-    padding: 0 1%;}
+/*#chacontent input{    margin-bottom: 5%;}*/
+#chacontent input[type="password"]{      height: 3em;line-height: 3em;width: 100%;padding: 0 2%; border-bottom: 1px #ddd solid;}
 #chacontent input[type="button"]{
     width: 100%;
     background-color: lightblue;
@@ -71,19 +84,26 @@
     border-radius: 4px;
 }
 
-.con_adiv {float:left;width: 100%;height: 3em;line-height: 3em;padding-left: 10px;}
+.con_adiv {float:left;width: 100%;line-height: 2em;padding-left: 10px}
+
 .top3 div{width: 50%;
     text-align: center;
     float: left;}
-.content_ul{padding-top: 4em;}
-.content_ul ul{margin: 10px;display: block;padding: 0 1em;}
-.content_ul ul li{border-bottom: 1px #ddd solid;padding-top:1em;}
+.content_ul{}
+.content_ul ul{margin-top: 3.5em;}
+.content_ul ul li{    background-color: #ffffff;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 5px;}
 .top_div{overflow: hidden;width: 100%}
 .top1{    width: 100%;position: relative;overflow: hidden;}
-.top1_left{float: left;width: 15%;text-align: center}
-.top1_left img{height: 3em;width: 3em; margin:1em auto;border-radius: 50%;}
-.top1_right{float: left;width: 85%}
-.top1_right div span{font-size: 16px;}
+.top1_left{float: left;width: 12%;}
+.top1_left img{height: 3em;width: 3em;/* margin:1em auto; */border-radius: 50%;}
+.top1_right{float: left;    width: 85%;margin-left: 5px;}
+.top1_right div span{}
+.time{font-size: 5px;color: #999999}
+.toname{font-size: 12px;color: #333333;    line-height: 20px;}
+.top3 span{padding: 5px 20px;margin: 5px 5px 0;border-radius: 4px;color: #ffffff}
 
 .shop_nar{overflow:hidden;margin:2%;background-color: #ffffff;border-radius: 6px}
 .shop_nar_p{height: 2.5em;
@@ -116,28 +136,59 @@
 /*.home_left h4{color:#8FC86A ;}*/
 .home_right{float: right;padding-right: 20px;}
 .home_right a{color: #8FC86A;margin-left: 2em}
-.homebtn_left{float:left;width: 25%;height: 10em;line-height: 10em;background-color: #dddddd}
-.homebtn_left img{width: 5em;height: 5em;border: 1px #8FC86A;border-radius: 50%;margin: 2.5em 1.5em}
-.homebtn_right{float:left;width: 75%;overflow: hidden}
-.homebtn_right p{    padding: 10px;color: gray}
-.homebtn_bot{width: 75%;}
-.homebtn_bot form{margin-left: 10px;}
-.homebtn_bot form input{height: 2em;padding: 5px;color: #F1F0F5;border-radius: 5px;}
-.inp1{background-color: #FCC94C}
-.inp2{background-color: #8FC86A;}
-.inp3{background-color: #84ACD0;}
-.inp4{background-color: #8FC86A;}
+.homebtn_left{float:left;width: 25%;background-color: #FDFDFD;position:relative;height: 10em;}
+.homebtn_left img{width: 5em;height: 5em;border: 1px #8FC86A;position:absolute;left:50%;top:50%;margin:-2.5em 0 0 -2.5em;}
+.home_bottom{overflow: hidden}
+.homebtn_bot{overflow: hidden;   float: right;    padding: 2px 10px;position: absolute;bottom: 0;right:0px;}
+.homebtn_bot a{margin-left: 20px;color: #8FC86A}
+.homebtn_bot1{overflow: hidden;   float: right;    padding: 2px 10px;position: absolute;bottom: 0;right: 0;}
+.homebtn_bot1 a{margin-left: 20px;color: #d8a723}
+.homebtn_right{float:left;width: 75%;line-height:18px;height: 10em;position: relative;bottom: 0;}
+.homebtn_right p{ padding: 10px 10px 2px;color: gray}
+.homebtn_bot form{margin-left: 10px;margin-bottom: 5px;}
+.homebtn_bot form input{height: 2em;padding: 5px;color: #F1F0F5;border-radius: 5px;margin-top:0.8em;    border: 0.7px #ccc solid;background-color: #ffffff}
+/*.inp1{background-color: #FCC94C}*/
+/*.inp2{background-color: #8FC86A;margin-left: 20px;}*/
+/*.inp3{background-color: #84ACD0;margin-left: 20px;}*/
+/*.inp4{background-color: #8FC86A;margin-left: 10px;}*/
 
 .zan{   float: left;
+    color: #d8a723;
     margin-left: 10px;
     width: 100%;
     overflow: hidden;}
-.zan a{color: #FCC94C;float: left}
+.zan a{color: #2382d8;float: left;}
 .homebtn_right1{float:left;width: 65%}
 
 .homebtn_right h4{margin: 10px;}
 .homebtn_right1 h4{margin: 10px 3px;}
 .jizcon{margin-left: 3px;color: #EE4D49}
-.allpeo{background: url(../image/icon_ren.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
-.allmess{background: url(../image/icon_pinglun.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
-.allzan{background: url(../image/icon_zan.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
+.allpeo{background: url(../images/icon_ren.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
+.allmess{background: url(../images/icon_pinglun.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
+.allzan{background: url(../images/icon_zan.png) no-repeat left center;  background-size: 10px;  padding-left: 12px;}
+
+.yjfk{height: 10em; margin-top: 10px;background: #fff;border-bottom: 1px #ddd solid;
+    border-top: 1px #ddd solid;}
+.yjfk input[type="text"]{height: 10em;
+    width: 96%;
+    padding: 0 2%;}
+
+.fc{width: 100%;overflow:hidden;}
+.fc a{display: block;width: 100%}
+.fcli li{width: 49%;    list-style: none;  display: inline-block;
+    }
+/*.fcli li img{    width: 66%;*/
+    /*height: 8em;*/
+    /*padding: 5px 17%;}*/
+.order li{    border-bottom: 1px #ddd solid;
+    padding: 0 0.5em;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    margin: 5px;}
+.order a{display: block;width: 100%}
+.order p{    float: right;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px;
+color: whitesmoke}
