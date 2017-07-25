@@ -20,7 +20,8 @@
       "images/qq.png",
       "js/mui.enterfocus.js",
       "fonts/mui.ttf",
-      "pages/home.html"
+      "pages/home.html",
+      "pages/property.html"
     ],
     "refer": [
       "main.html",
@@ -68,7 +69,8 @@
       "css/css.css",
       "images/approve_home_icon.png",
       "images/icon_tab.png",
-      "pages/mine.html"
+      "pages/mine.html",
+      "images/winshow.png"
     ],
     "refer": [
       "pages/home.html"
@@ -79,7 +81,64 @@
       "css/title.css",
       "css/css.css",
       "images/icon_tab.png",
-      "images/touxiang.png"
+      "images/touxiang.png",
+      "pages/message.html"
+    ],
+    "refer": []
+  },
+  "pages/property.html": {
+    "resources": [
+      "css/title.css",
+      "css/css.css",
+      "images/icon_tab.png",
+      "pages/propertyApply.html",
+      "images/weixiu.png",
+      "images/zxbg.png",
+      "images/jiaofei.png",
+      "css/theme.css",
+      "images/shenqing.png",
+      "images/wuye.jpg",
+      "pages/propertyRepair.html",
+      "pages/propertyFee.html",
+      "pages/message.html"
+    ],
+    "refer": [
+      "pages/propertyApply.html"
     ]
+  },
+  "pages/propertyApply.html": {
+    "resources": [
+      "images/back_btn.png",
+      "css/mui.min.css",
+      "css/style.css",
+      "pages/property.html"
+    ],
+    "refer": []
+  },
+  "pages/propertyRepair.html": {
+    "resources": [
+      "pages/property.html",
+      "css/mui.min.css",
+      "css/style.css",
+      "images/back_btn.png"
+    ],
+    "refer": [
+      "pages/property.html"
+    ]
+  },
+  "pages/message.html": {
+    "resources": [
+      "images/icon_zan.png",
+      "images/icon_pinglun.png",
+      "images/icon_ren.png",
+      "images/newsp.jpg",
+      "images/gong.jpg",
+      "css/title.css",
+      "css/css.css",
+      "images/icon_tab.png",
+      "pages/property.html",
+      "pages/mine.html"
+    ],
+    "refer": []
   }
 }
