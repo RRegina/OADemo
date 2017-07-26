@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<title>通讯录</title>
 		<link rel="stylesheet" href="../css/mui.min.css" />
 		<link rel="stylesheet" href="../css/style.css" />
@@ -10,9 +11,71 @@
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<h1 class="mui-title">标题</h1>
+			<h1 class="mui-title">通讯录</h1>
 		</header>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item " href="property.html">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon mui-icon-phone"></span>
+				<span class="mui-tab-label">通讯录</span>
+			</a>
+			<a class="mui-tab-item" href="message.html">
+				<span class="mui-icon mui-icon-email"></span>
+				<span class="mui-tab-label">消息</span>
+			</a>
+			<a class="mui-tab-item" href="mine.html">
+				<span class="mui-icon mui-icon-gear"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div id="" style="margin-top: 5em;">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media" onclick="gotoDial('18321145783')">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../images/avator.png">
+						<div class="mui-media-body" >
+							张三
+							<p class="mui-ellipsis" id="phone1">18321145783</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media" onclick="gotoDial('13382758262')>
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../images/avator.png">
+						<div class="mui-media-body">
+							李四
+							<p class="mui-ellipsis">13382758262</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell onclick="gotoDial('15985749415')>
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="../images/avator.png">
+						<div class="mui-media-body">
+							王五
+							<p class="mui-ellipsis">15985749415</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+
+			function plusReady() {}
+			if(window.plus) {
+				plusReady();
+			} else {
+				document.addEventListener("plusready", plusReady, true);
+			}
+
+			function gotoDial(Num) {
+				plus.device.dial(Num, true);
+			}
+		</script>
+
 	</body>
 
 </html>

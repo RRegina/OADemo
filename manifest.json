@@ -5,7 +5,7 @@
 		"iPad"
 	],
 	"id": "H5BE3AB8F",/*应用的标识，创建应用时自动生成，勿手动修改*/
-	"name": "OADemo",/*应用名称，程序桌面图标名称*/
+	"name": "先声药业",/*应用名称，程序桌面图标名称*/
 	"version": {
 		"name": "1.0.0",/*应用版本名称*/
 		"code": "83"
@@ -82,12 +82,15 @@
 		"Webview": {},
 		"NativeUI": {},
 		"Navigator": {},
-		"NativeObj": {},"Share":{},"OAuth":{},"Device":{}
+		"NativeObj": {},
+		"OAuth": {},
+		"Device": {}
 	},
 	"plus": {
 		"splashscreen": {
-			"autoclose": false,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
-			"waiting": true
+			"autoclose": true,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+			"waiting": true,
+			"delay": "0"
 		},
 		"runmode": "liberate",/*应用的首次启动运行模式，可取liberate或normal，liberate模式在第一次启动时将解压应用资源（Android平台File API才可正常访问_www目录）*/
 		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
@@ -105,7 +108,16 @@
 				"keystore": "",/*Android应用打包使用的密钥库文件*/
 				"password": "",/*Android应用打包使用密钥库中证书的密码*/
 				"aliasname": "",/*Android应用打包使用密钥库中证书的别名*/
-				"permissions": ["<uses-permission android:name=\"com.android.launcher.permission.INSTALL_SHORTCUT\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"com.android.launcher.permission.UNINSTALL_SHORTCUT\"/>"]
+				"permissions": [
+					"<uses-permission android:name=\"com.android.launcher.permission.INSTALL_SHORTCUT\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"com.android.launcher.permission.UNINSTALL_SHORTCUT\"/>"
+				]
 			},
 			"orientation": [
 				"portrait-primary",
@@ -145,7 +157,8 @@
 					"ldpi": "unpackage/res/icons/48x48.png", /*大屏程序图标，分辨率：48x48*/
 					"hdpi": "unpackage/res/icons/72x72.png", /*高分屏程序图标，分辨率：72x72*/
 					"xhdpi": "unpackage/res/icons/96x96.png",/*720P高分屏程序图标，分辨率：96x96*/
-					"xxhdpi": "unpackage/res/icons/144x144.png"
+					"xxhdpi": "unpackage/res/icons/144x144.png",
+					"xxxhdpi": "unpackage/res/icons/192x192.png"
 				}
 			},
 			"splashscreen": {
@@ -169,9 +182,9 @@
 				"android": {
 					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
 					"ldpi": "", /*大屏启动图片，分辨率：320x442*/
-					"hdpi": "", /*高分屏启动图片，分辨率：480x762*/
-					"xhdpi": "", /*720P高分屏启动图片，分辨率：720x1242*/
-					"xxhdpi": ""
+					"hdpi": "unpackage/res/icons/oa_splash.png", /*高分屏启动图片，分辨率：480x762*/
+					"xhdpi": "unpackage/res/icons/oa_splash.png", /*720P高分屏启动图片，分辨率：720x1242*/
+					"xxhdpi": "unpackage/res/icons/oa_splash.png"
 				}
 			}
 		}
@@ -288,7 +301,11 @@
 					"images/icon_tab.png",
 					"images/icon_ren.png",
 					"images/newsp.jpg",
-					"images/gong.jpg"
+					"images/gong.jpg",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"css/style.css",
+					"images/tab_home.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -314,7 +331,13 @@
 					"images/icon_tab.png",
 					"images/touxiang.png",
 					"pages/message.html",
-					"pages/property.html"
+					"pages/property.html",
+					"images/dingdan.png",
+					"images/xiaoxi.png",
+					"images/sz.png",
+					"images/xiaojiantou.png",
+					"images/yhq.png",
+					"pages/maillist.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -337,7 +360,12 @@
 					"pages/service.html",
 					"pages/property/propertyFee.html",
 					"pages/property/propertyRepair.html",
-					"pages/property/propertyApply.html"
+					"pages/property/propertyApply.html",
+					"images/wuye.png",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"pages/maillist.html",
+					"pages/mine.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -373,7 +401,10 @@
 					"css/css.css",
 					"images/icon_tab.png",
 					"pages/property.html",
-					"pages/mine.html"
+					"pages/mine.html",
+					"pages/maillist.html",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
@@ -401,7 +432,10 @@
 					"pages/service/serviceReception.html",
 					"pages/service/serviceLiving.html",
 					"pages/service/serviceCar.html",
-					"pages/mine.html"
+					"pages/mine.html",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"pages/maillist.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -449,7 +483,8 @@
 			},
 			"pages/property/propertyFee.html": {
 				"resources": [
-					"pages/property.html"
+					"pages/property.html",
+					"images/back_btn.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -463,7 +498,10 @@
 			},
 			"pages/property/propertyApply.html": {
 				"resources": [
-					"pages/property.html"
+					"pages/property.html",
+					"css/mui.min.css",
+					"css/style.css",
+					"images/back_btn.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -477,7 +515,8 @@
 			},
 			"pages/service/serviceReception.html": {
 				"resources": [
-					"pages/service.html"
+					"pages/service.html",
+					"images/back_btn.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -495,6 +534,19 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"pages/maillist.html": {
+				"resources": [
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"css/style.css",
+					"pages/message.html",
+					"pages/property.html",
+					"images/avator.png",
+					"images/tab_communication_sel.png"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {
@@ -506,7 +558,7 @@
 			]
 		}
 	},
-	"unpackage":[
-	  "README.md"
+	"unpackage": [
+		"README.md"
 	]
 }

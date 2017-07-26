@@ -8,6 +8,7 @@
 		<link type="text/css" href="../css/css.css" rel="stylesheet">
 		<link type="text/css" href="../css/theme.css" rel="stylesheet">
 		<link type="text/css" href="../css/title.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/mui.min.css" />
 		<style>
 			ul {
 				margin: 0;
@@ -30,10 +31,24 @@
 	</head>
 
 	<body>
-		<header id="title">
-			<!--<a href="mine.html" style="float: left"><img src="image/fanhui.png" style="margin-left:1em;height: 1em" ></a>-->
-			<span style="text-align: center"></span>
-		</header>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item" href="maillist.html">
+		        <span class="mui-icon mui-icon-phone"></span>
+		        <span class="mui-tab-label">通讯录</span>
+		    </a>
+		    <a class="mui-tab-item" href="message.html">
+		        <span class="mui-icon mui-icon-email"></span>
+		        <span class="mui-tab-label">消息</span>
+		    </a>
+		    <a class="mui-tab-item" href="mine.html">
+		        <span class="mui-icon mui-icon-gear"></span>
+		        <span class="mui-tab-label">我的</span>
+		    </a>
+		</nav>
 		<div id="topbtn">
 			<ul>
 				<li>
@@ -45,11 +60,11 @@
 			</ul>
 		</div>
 
-		<div class="content_top" style="margin-top: 3em;">
+		<div class="content_top">
 			<a href=""><img src="../images/wuye.png"></a>
 		</div>
 
-		<div style="margin-top: 20px;">
+		<div style="margin-top: 5em;">
 			<ul>
 				<div>
 					<li style="text-align: center;" onclick="gotoPropertyFee('1')">
@@ -67,7 +82,7 @@
 				</div>
 			</ul>
 		</div>
-		<footer id="footer">
+		<!--<footer id="footer">
 			<ul>
 				<li class="curren">
 					<a href="property.html"><i class="icon2"></i>首页</a>
@@ -79,7 +94,7 @@
 					<a href="mine.html"><i class="icon3"></i>我的</a>
 				</li>
 			</ul>
-		</footer>
+		</footer>-->
 		
 		<script type="text/javascript" >
 			
